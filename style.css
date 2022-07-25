@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,400;0,700;0,800;1,200;1,300;1,400&family=Noto+Serif:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Serif+Display:ital,wght@0,100;0,400;0,700;0,800;1,200;1,300;1,400&family=Noto+Serif:ital,wght@0,700;1,700&family=Source+Code+Pro:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=M+PLUS+Rounded+1c:wght@500&family=Noto+Serif+Display:ital,wght@0,100;0,400;0,700;0,800;1,200;1,300;1,400&family=Noto+Serif:ital,wght@0,700;1,700&family=Source+Code+Pro:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    /* background-color: palevioletred;*/
+    background-color: rgb(245, 240, 245);
+    width: 20vw;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Code Pro', monospace;
+    height: 100vh;
+    font-weight: bold;
+}
+
+.sidebar nav {
+    padding: 72px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: medium;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: rgb(80, 155, 205);
+    width: 90vw;
+    background: url(https://news.artnet.com/app/news-upload/2014/07/2014-july-30-net-art-history-3.gif) 0 0;
+   /* background-image: url("https://cdn.technologyadvice.com/wp-content/uploads/2013/12/Cloud-Computing-700x408.jpeg");*/
+ background-color: #f7f5f5;
+   
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    background-color: rgb(236, 242, 240);
+    background: url(https://news.artnet.com/app/news-upload/2014/07/2014-july-30-net-art-history-3.gif) 0 0;
+    height: 45vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+}
+
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.hello {
+    font-size: 60px;
+    padding: 0 40px;
+
+
+}
+
+.name {
+
+    font-size: 40px;
+    padding: 0 40px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about {
+    font-size: 25px;
+    padding: 0 40px;
+}
+
+.skills {
+    font-size: 30px;
+    padding: 0 40px;
+
+}
+
+.buttons {
+    margin-top: 34px;
+    padding: 0 40px;
+}
+
+.buttons.button {
+    padding: 9px 13px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 15px;
+    padding: 7px 13px;
+    margin: 10px 0;
+
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.moreIntro {
+    font-size: 20px;
+    padding: 0 40px;
+}
+
+.contactform {
+    font-family: 'Kaushan Script', cursive;
+    padding: 0 34px;
+    padding-top: 144px;
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactform h1 {
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: coloumn;
+}
+
+.contactform form div input {
+    padding: 20px 0;
+    width: 25vw;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    padding: 8px;
+}
+
+#form-check {
+    flex-direction: row;
+
+
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+
+
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Code Pro', monospace;
+    margin: 23px;
+
+
+
+
+}
+
+.p {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.Intro h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 12px;
+
+
+}
+
+.Intro p {
+    margin: 0 12px;
+
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+}
+
+.skill {
+    width: 23px;
+    height: 23px;
+    background-color: red;
+}
+
+.hundread {
+    width: 165px;
+    background-color: chocolate;
+    border: 2px solid black;
+
+}
+
+.fifty {
+    width: 155px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.seventyfive {
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.twentyfive {
+    width: 90px;
+    background-color: darkgreen;
+    border: 2px solid black;
+}
+
+.ten {
+    width: 50px;
+    background-color: hotpink;
+    border: 2px solid black;
+}
